@@ -1,0 +1,127 @@
+/*热门问题详情*/
+/*面包屑导航*/
+.ld_broad{
+    width:7.02rem;
+    margin:0 auto;
+    color:#494747;
+    font-size:.22rem;
+    padding:.3rem 0 .2rem 0;
+} 
+.ld_broad a{
+    font-size:.22rem;
+    color:#494747;
+}
+.ld_qufen{
+    padding:0 .2rem;
+}
+
+.zlf_content{
+    width:7.02rem;
+    height:auto;
+    background:#fff;
+    margin:0 auto;
+    padding:0.25rem 0;
+    color:#666;
+}
+/*标题*/
+.sy_caption{
+   width: 100%;height: 0.5rem;
+   margin-left:.2rem;
+}
+.sy_caption:before{
+    content:"";
+    display: block;
+    width: 0.04rem;height: 0.2rem;
+    background: #01b5ff;
+    border-radius: 0.02rem;
+    float: left;
+    margin: 0.15rem 0rem;
+}
+.sy_caption p{
+    line-height: 0.5rem;
+    border-bottom: 0.01rem dashed #666666;
+    width: 6.36rem;height: 100%;
+    box-sizing:border-box;
+    font-size: 0.24rem;
+    font-weight: bold;
+    margin-left: 0.2rem;
+}
+/*内容*/
+.zlf_article,.zlf_article2{
+    width:6.42rem;
+    height:auto;
+    padding:0.2rem 0.2rem 0.2rem 0.4rem;
+}
+.zlf_article,.zlf_article2 p{
+    font-size:0.24rem;
+}
+.zlf_p1,.zlf_p2{
+    margin-bottom: .35rem;
+}
+.zlf_p3{
+    margin-bottom: .2rem;
+}
+.zlf_p4{
+    border-bottom: 0.01rem dashed #666666;
+}
+.zlf_image{
+    width:100%;
+    height:3.6rem;
+    background:#474747;
+    overflow: hidden;
+}
+/*翻页*/
+.zlf_page{
+    width:6.38rem;
+    height:auto;
+    padding:0.2rem 0.2rem 0.2rem 0.44rem;
+    font-size: 0.24rem;
+    color:#000;
+    line-height:.4rem;
+}
+.zlf_page .zlf_prev,.zlf_next{
+    width:100%;
+    height:.4rem;
+}
+.zlf_page span{
+    color:#01b5ff;
+}
+/*相关问题*/
+.zlf_issue_box{
+    width:7.02rem;
+    height:auto;
+    background:#fff;
+    margin:0 auto;
+    padding:0.25rem 0rem;
+    font-size: .24rem;
+    color:#666;
+}
+.zlf_item{
+    height:.5rem;
+    line-height:.5rem;
+    margin-left:.15rem;
+}
+.zlf_yuan{
+    width:.06rem;
+    height:.06rem;
+    background:#01b5ff;
+    border:.03rem solid #01b5ff;
+    background-clip: content-box;
+    border-radius: 50%;
+    padding:.03rem;
+    box-shadow:0 .02rem .01rem rgba(1, 181, 255, 0.4);
+    margin:.17rem 0 0 0rem;
+    float:left;
+}
+.zlf_item_issue{
+    display:block;
+    float:left;
+    margin-left:.2rem;
+    color:#000;
+}
+.zlf_item_issue:hover{
+    color:#01b5ff;
+}
+
+
+
