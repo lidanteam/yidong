@@ -1,0 +1,46 @@
+/*金牌师资详情*/
+/*概述*/
+    .sy_conlist{
+    	width: 100%;height: auto;
+    	padding-left: 0.2rem;
+    	padding-top: 0.2rem;
+    	box-sizing:border-box;
+    	overflow: hidden;
+    }
+    .sy_conimg{
+    	width: 2.8rem;height: 2.8rem;
+    	background: #000;
+    	border-radius: 0.1rem;
+    	float: left;
+    }
+    .sy_detial{
+    	width: auto;height: 2.8rem;
+    	float: left;
+    	margin-left: 0.2rem;
+    	overflow: hidden;
+    }
+    .sy_color{
+    	font-size: 0.22rem;
+    	color: #01b5ff;
+    }
+    .sy_detial ul{
+    	width: 100%;height: auto;
+    	padding: 0.2rem 0;
+    	margin-top: 0.2rem;
+    }
+    .sy_delist{
+    	margin: 0.1rem;
+    }
+    .sy_deh3{
+    	font-size: 0.28rem;
+    	color:#000;
+    }
+    .sy_debr{
+    	margin-left: 1.05rem;
+    	margin-top: 0.07rem;
+    	margin-bottom: 0.07rem;
+    }
+    .sy_delist span:nth-child(1){
+    	color:#333;
+    	font-weight: bold;
+    }

@@ -1,0 +1,256 @@
+/*沈阳 开始*/
+  /**/
+    .sy_qdul{
+    	width: 100%;height: auto;
+    	display: flex;
+    	justify-content:space-around;
+    }
+    .sy_dli{
+    	width: 1.21rem;height: auto;
+    	text-align: center;
+    }
+    .sy_dli_top{
+    	width: 100%;height: 1.21rem;
+    	margin-bottom: 0.1rem;
+    }
+    .sy_dli:nth-child(1) .sy_dli_top{
+    	background: url(../images/sy_images/sy_qd00.png) no-repeat center/cover;
+    }
+    .sy_dli:nth-child(2) .sy_dli_top{
+    	background: url(../images/sy_images/sy_qd01.png) no-repeat center/cover;
+    }
+    .sy_dli:nth-child(3) .sy_dli_top{
+    	background: url(../images/sy_images/sy_qd02.png) no-repeat center/cover;
+    }
+    .sy_dli:nth-child(4) .sy_dli_top{
+    	background: url(../images/sy_images/sy_qd03.png) no-repeat center/cover;
+    }
+  /*关于前端工程师*/
+    .sy_conp span{
+    	color:#01b5ff;
+    }
+  /*行业就业薪资*/
+    .sy_hyimg{
+    	width: 5.35rem;height: 3.68rem;
+    	margin: 0.2rem auto;
+    	background: url(../images/sy_images/sy_qdhy.png) no-repeat center/cover;
+    }
+    .sy_hyp{
+    	text-align: center;
+    }
+  /*可就业岗位*/
+    .sy_jyul{
+    	width: 100%;height: auto;
+    	padding: 0.2rem;
+    	box-sizing:border-box;
+    }
+    .sy_julist{
+    	width: 100%;height: 0.6rem;
+    	margin: 0.2rem 0;
+    	padding: 0.01rem 0;
+    }
+    .sy_jyimg{
+    	width: 0.58rem;height: 0.58rem;
+    	float: left;
+    	margin-right: 0.2rem;
+    	margin-top: 0.01rem;
+    }
+    .sy_jycon p:nth-child(1){
+    	color:#01b5ff;
+    }
+    .sy_jycon p:nth-child(2){
+    	text-transform: uppercase;
+    	font-size: 0.2rem;
+    }
+    .sy_julist:nth-child(1) .sy_jyimg,.sy_julist:nth-child(4) .sy_jyimg{
+    	background: url(../images/sy_images/sy_qd10.png) no-repeat center/cover;
+    }
+    .sy_julist:nth-child(2) .sy_jyimg,.sy_julist:nth-child(5) .sy_jyimg{
+    	background: url(../images/sy_images/sy_qd11.png) no-repeat center/cover;
+    }
+    .sy_julist:nth-child(3) .sy_jyimg,.sy_julist:nth-child(6) .sy_jyimg{
+    	background: url(../images/sy_images/sy_qd12.png) no-repeat center/cover;
+    }
+/*沈阳 结束*/
+
+
+/*李瑞淳 开始*/
+  /*就业学员薪资*/
+	.lrc_baowei{
+		width:7.02rem;
+		height:auto;
+		background: #fff;
+		overflow: hidden;
+		margin-left: -0.2rem;
+		padding: 0 0.2rem;
+		box-sizing:border-box;
+	}
+	.lrc_da{
+		font-family: "微软雅黑";
+		width:100%;
+		height:.77rem;
+		font-size: .24rem;
+		color: #000;
+		text-align: center;
+		line-height: .77rem;
+	}
+	.lrc_da1{
+		font-family: "微软雅黑";
+		width:100%;
+		height:.53rem;
+		font-size: .24rem;
+		color: #666;
+		text-align: center;
+		line-height: .77rem;
+		overflow: hidden;
+	}
+	.lrc_xm1{
+		width:1.35rem;
+		height:100%;
+	}
+	.lrc_xm2{
+		width:1.30rem;
+		height:100%;
+	}
+	.lrc_xm3{
+		width:auto;
+		height:100%;
+	}
+	.lrc_tx2{
+		margin: 0 .15rem;
+		display: block;
+		color:#ffa201;
+	}
+	.lrc_tx3{
+		color: #adadad;
+	}
+	.lrc_xx{
+		width:.10rem;
+		height:100%;
+		border-right:.02rem dashed #01b5ff;
+		float: left;
+	}
+	.lrc_xxzi{
+		display: inline-block;
+		line-height: .74rem;
+		float: left;
+		margin: 0 .20rem;
+	}
+	.lrc_tx1{
+		position:relative;
+	}
+	.lrc_nxy{
+		position: absolute;
+		width:.13rem;
+		height:.13rem;
+		background: #01b5ff;
+		border-radius: 50%;
+		left:0.05rem;
+		top:.3rem;
+	}
+	.lrc_tx1:after{
+		content:"";
+		display: block;
+		clear:both;
+	}
+
+  /*课程安排*/  
+	.gl_yq{
+	    width:7.02rem;
+	    height:4.29rem;
+	    margin-left:-0.2rem;
+	    background:#fff;
+	    position: relative;
+	}
+	.gl_pubsic{
+	    border-radius: 50%;
+	    position: absolute;
+	    background-color: #00A0E9;
+	    text-align: center;
+	    font-size: .24rem;
+	    color:#fff;
+	    word-break: break-all;
+
+	}
+	.gl_yqinner1{
+	    width: 1.1rem;
+	    height: 1.1rem;
+	    line-height: 1.1rem;
+	    left:1.26rem;top:.25rem;
+	}
+
+	.gl_yqinner2{
+	    width: 1.58rem;
+	    height: 1.58rem;
+	    line-height: 1.58rem;
+	    left:2.69rem;top:.41rem;
+	}
+	.gl_yqinner3{
+	    width: 1.12rem;
+	    height: 1.12rem;
+	    line-height: 1.12rem;
+	    left:4.9rem;top:.36rem;
+	}
+	.gl_yqinner4{
+	    width: 1.38rem;
+	    height: 1.38rem;
+	    line-height: 1.38rem;
+	    left:.38rem;top:1.41rem;
+	}
+	.gl_yqinner5{
+	    width: .89rem;
+	    height: .89rem;
+	    line-height: .89rem;
+	    left:1.79rem;top:1.25rem;
+	    font-size: .19rem;
+	}
+	.gl_yqinner6{
+	    width: 1.23rem;
+	    height: 1.23rem;
+	    line-height: 1.23rem;
+	    left:4.18rem;top:1.38rem;
+	}
+	.gl_yqinner7{
+	    width: 1.23rem;
+	    height: 1.23rem;
+	    line-height: 1.23rem;
+	    left:5.44rem;top:1.39rem;
+	}
+	.gl_yqinner8{
+	    width: .89rem;
+	    height: .89rem;
+	    line-height: .89rem;
+	    left:.85rem;top:2.97rem;
+	    font-size: .19rem;
+	}
+	.gl_yqinner9{
+	    width: 1.23rem;
+	    height: 1.23rem;
+	    line-height: 1.23rem;
+	    left:1.6rem;top:2.14rem;
+	}
+	.gl_yqinner9 span{
+	     display:inline-block;
+	     vertical-align: middle;
+	     line-height: 1;
+	}
+	.gl_yqinner10{
+	    width: 1.43rem;
+	    height: 1.43rem;
+	    line-height: 1.43rem;
+	    left:2.88rem;top:2.19rem;
+	}
+	.gl_yqinner10 span{
+	    display:inline-block;
+	     vertical-align: middle;
+	     line-height: 1;
+	}
+	.gl_yqinner11{
+	    width: 1.39rem;
+	    height: 1.39rem;
+	    line-height: 1.39rem;
+	    left:4.32rem;top:2.67rem;
+	}
+
+
+/*李瑞淳 结束

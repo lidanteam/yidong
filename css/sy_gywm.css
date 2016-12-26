@@ -1,0 +1,70 @@
+/*关于我们 内容*/
+    /*概述*/
+    .sy_content{
+   	   width: 7.02rem;height: auto;
+   	   background: #fff;
+   	   padding: 0.2rem;
+   	   box-sizing:border-box;
+   	   margin: 0.1rem auto;
+    }
+   /*标题*/
+    .sy_caption{
+       width: 100%;height: 0.5rem;
+    }
+    .sy_caption:before{
+    	content:"";
+    	display: block;
+    	width: 0.04rem;height: 0.2rem;
+    	background: #01b5ff;
+    	float: left;
+    	margin: 0.15rem 0;
+      border-radius: 0.02rem;
+    }
+    .sy_caption p{
+    	line-height: 0.5rem;
+    	border-bottom: 0.01rem dashed #666666;
+    	width: 6.36rem;height: 100%;
+    	box-sizing:border-box;
+    	font-size: 0.24rem;
+    	font-weight: bold;
+    	margin-left: 0.2rem;
+    }
+   /*内容*/
+    .sy_conp{
+    	padding: 0.2rem 0 0.1rem 0.2rem;
+    	font-size: 0.24rem;
+      color:#666;
+      text-align: justify;
+    }
+   /*企业文化*/
+    .sy_conwenhua{
+      width: 100%;height: 1.6rem;
+      display: flex;
+      justify-content:space-around;
+      overflow: hidden;
+    }
+    .sy_conwenhua li{
+      margin-top: 0.2rem;
+      width: 1.35rem;height: 1.35rem;
+    }
+    .sy_conwenhua li:nth-child(1){
+      background: url(../images/sy_images/sy_zz.png) no-repeat center/cover;
+    }
+    .sy_conwenhua li:nth-child(2){
+      background: url(../images/sy_images/sy_jz.png) no-repeat center/cover;
+    }
+    .sy_conwenhua li:nth-child(3){
+      background: url(../images/sy_images/sy_kb.png) no-repeat center/cover;
+    }
+/*马上报名*/
+    .sy_button{
+      width: 100%;height: 1.7rem;
+      margin: 0.2rem auto;
+    }
+    .sy_button a{
+      width: 1.7rem;height: 1.7rem;
+      margin: 0 auto;
+      display: block;
+      background: url(../images/sy_images/sy_msbm.png) no-repeat center/cover;
+      border: none;
+    }
