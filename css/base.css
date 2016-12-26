@@ -2,7 +2,8 @@ a{
 	text-decoration:none;
 }
 *{
-	font-family:"微软雅黑";
+	font-size:.24rem;
+    font-family:"微软雅黑";
 }
 * img{
 	border:none;
