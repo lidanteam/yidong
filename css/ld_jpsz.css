@@ -2,7 +2,7 @@
 * @Author: Marte
 * @Date:   2016-12-26 11:43:49
 * @Last Modified by:   Marte
-* @Last Modified time: 2016-12-26 16:23:23
+* @Last Modified time: 2016-12-26 22:15:35
 */
 /*面包屑导航*/
 .ld_broad{
@@ -51,7 +51,7 @@ li.ld_jpsz_activelis{
 .ld_jpsz_condi{
     width:7.02rem;
     margin:0 auto .1rem auto;
-    /*display: none;*/
+    display: none;
 }
 .ld_jpsz_con{
     width:100%;
