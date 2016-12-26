@@ -247,6 +247,7 @@
     float:left;
     width:.34rem;height:.34rem;
     margin:.28rem .16rem .28rem .39rem;
+    background-size:100%;
 }
 .ld_foot_lis1{
     background:url(../images/ld_images/ld_index_icon1.png) 0 0 no-repeat;
@@ -259,12 +260,15 @@
 }
 .ld_index_lisactive .ld_foot_lis1{
      background:url(../images/ld_images/ld_index_icon2.png) 0 0 no-repeat;
+     background-size:100%;
 }
 .ld_index_lisactive .ld_foot_lis2{
      background:url(../images/ld_images/ld_index_icon4.png) 0 0 no-repeat;
+     background-size:100%;
 }
 .ld_index_lisactive .ld_foot_lis3{
      background:url(../images/ld_images/ld_index_icon6.png) 0 0 no-repeat;
+     background-size:100%;
 }
 .ld_index_lisactive a{
     color:#fff;
