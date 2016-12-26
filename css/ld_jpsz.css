@@ -1,0 +1,109 @@
+/* 
+* @Author: Marte
+* @Date:   2016-12-26 11:43:49
+* @Last Modified by:   Marte
+* @Last Modified time: 2016-12-26 16:23:23
+*/
+/*面包屑导航*/
+.ld_broad{
+    width:7.02rem;
+    margin:0 auto;
+    color:#494747;
+    font-size:.22rem;
+    padding:.3rem 0 .2rem 0;
+}
+.ld_broad a{
+    font-size:.22rem;
+    color:#494747;
+}
+.ld_qufen{
+    padding:0 .2rem;
+}
+/*金牌师资内容开始*/
+/*选项卡*/
+.ld_jpsz_bardi{
+    width:7.02rem;
+    height:.92rem;
+    margin:0 auto;
+}
+.ld_jpsz_bar{
+    width:100%;
+    height:.92rem;
+    box-sizing: border-box;
+    background:url(../images/ld_images/ld_border.png) 0 0 no-repeat;
+    background-size:100%;
+}
+.ld_jpsz_bar li{
+    float:left;
+    width:2.34rem;
+    height:100%;
+    text-align:center;line-height:.8rem;
+    overflow:hidden;
+    font-size: .26rem;
+    color:#111;
+}
+li.ld_jpsz_activelis{
+    background:url(../images/ld_images/ld_bg.png) 0 0 no-repeat;
+    background-size:100%;
+    color:#fff;
+}
+/*内容*/
+.ld_jpsz_condi{
+    width:7.02rem;
+    margin:0 auto .1rem auto;
+    /*display: none;*/
+}
+.ld_jpsz_con{
+    width:100%;
+    height:2.7rem;
+    background:#fff;
+    padding:.2rem;   
+    box-sizing: border-box;
+    margin:.1rem auto 0 auto;
+}
+.ld_jpsz_img{
+    float:left;
+    width:2.3rem;height:2.3rem;
+    border-radius:.1rem;
+    overflow:hidden;
+}
+.ld_jpsz_img img{
+    width:100%;
+}
+.ld_jpsz_right{
+    float:left;
+    width:4.02rem;height:1.98rem;
+    margin-left: .26rem;
+    padding:.16rem 0;
+}
+.ld_right_top{
+    width:100%;height:.38rem;
+}
+.ld_rig_tit{
+    float:left;
+    width:1.7rem;height:.27rem;
+    line-height: .27rem;
+    border-bottom:1px dashed #999;
+    color:#111;
+    font-size:.26rem;
+    padding-bottom:.1rem;
+}
+.ld_right_top a{
+    float:right;
+    color:#ff9300;
+    font-size:.24rem;
+}
+.ld_zhiwei{
+    height:.2rem;
+    line-height: .2rem;
+    color:#01b5ff;
+    font-size:.24rem;
+    margin-top:.1rem;
+}
+.ld_jpsz_inner{
+    width:3.03rem;
+    line-height: .36rem;
+    color:#666;
+    font-size:.24rem;
+    margin-top:.3rem;
+}
