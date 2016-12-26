@@ -1,5 +1,4 @@
   var mySwiper = new Swiper ('.swiper-container', {
-    direction: 'vertical',
     loop: true,
     autoplay : 3000,
     autoplayDisableOnInteraction : false,
@@ -13,12 +12,7 @@
     // // 如果需要滚动条
     // scrollbar: '.swiper-scrollbar',
   })   
-  ._1 {
-  
-  position: absolute;
-  left: 19px;
-  top: 441px;
-  width: 157px;
-  height: 156px;
-  z-index: 34;
-}
+  $(".ld_footer_dingwei li").tap(function(){
+      $(".ld_footer_dingwei li").removeClass('ld_index_lisactive')
+      $(this).addClass('ld_index_lisactive')
+  })
