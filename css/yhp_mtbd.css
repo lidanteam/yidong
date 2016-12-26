@@ -1,0 +1,125 @@
+a{
+	text-decoration: none;
+	color: #000;
+}
+/*面包屑导航开始*/
+	.ld_broad{
+	    width:7.02rem;
+	    margin:0 auto;
+	    color:#494747;
+	    font-size:.22rem;
+	    padding:.3rem 0 .2rem 0;
+	}
+	.ld_broad a{
+	    font-size:.22rem;
+	    color:#494747;
+	}
+	.ld_qufen{
+	    padding:0 .2rem;
+	}
+/*面包屑导航结束*/
+/*媒体报道主体*/
+	.yhp_mtbd_box{
+		width: 7.5rem;
+		height: auto;
+		margin: 0 auto;
+	}
+	.yhp_mtbd_ul{
+		width: 7.02rem;
+		height: auto;
+		margin: 0 auto;
+	}
+	.yhp_mtbd_li{
+		width: 100%;
+		height: 3.36rem;
+		border-bottom: 1px dashed #cecece;
+	}
+	.yhp_mtbd_a{
+		display: block;
+		width: 100%;
+		height: auto;
+		margin-bottom: 0.19rem;
+	}
+	.yhp_mtbd_a h1{
+		font-size: 0.26rem;
+		font-weight: normal;
+		color: #000;
+		padding: 0;
+		margin: 0;
+		height: 0.71rem;
+		line-height: 0.71rem;
+	}
+	.yhp_mtbd_inner:after{
+		content: "";
+		display:block;
+		clear: both;
+	}
+	.yhp_mtbd_left{
+		float: left;
+		width: 2.03rem;
+		height: 1.55rem;
+		box-sizing:border-box;
+		padding-top: 0.1rem;
+		margin-right: 0.34rem;
+		background:url("../images/yhp_images/yhp_mtbd_border.png") no-repeat right top;
+		background-size: 1.94rem 1.47rem;
+	}
+	.yhp_mtbd_left img{
+		border: none;
+		width: 1.93rem;
+		height: 1.45rem;
+	}
+	.yhp_mtbd_inner p{
+		font-size: 0.24rem;
+		box-sizing:border-box;
+		padding-top: 0.10rem;
+		color: #494747;
+	}
+	.yhp_mtbd_bottom{
+		width: 100%;
+		box-sizing:border-box;
+		padding-left: 0.10rem;
+		border-top: 1px solid #CECECE;
+		border-bottom: 1px solid #CECECE;
+	}
+	.yhp_mtbd_bottom:after{
+		content: "";
+		display: block;
+		clear: both;
+	}
+	.yhp_mtbd_item{
+		float: left;
+		height: 0.6rem;
+		width: 33.33%;
+	}
+	.yhp_mtbd_item:after{
+		content: "";
+		display: block;
+		clear: both;
+	}
+	.yhp_mtbd_icon{
+		float: left;
+		display: block;
+		width: 0.31rem;
+		height: 0.6rem;
+		background: url("../images/yhp_images/yhp_mtbd_item.png") no-repeat;
+		background-size: 0.96rem 0.31rem;
+	}
+	.yhp_mtbd_icon1{
+		background-position: 0 center;
+	}
+	.yhp_mtbd_icon2{
+		background-position: -0.32rem center;
+	}
+	.yhp_mtbd_icon3{
+		background-position: -0.65rem center;
+	}
+	.yhp_mtbd_span{
+		display: block;
+		float: left;
+		line-height:0.6rem;
+		font-size: 0.22rem;
+		color: #666666;
+		font-family: "宋体";
+		margin-left: 0.1rem;
+	}

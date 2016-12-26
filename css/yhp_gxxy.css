@@ -1,0 +1,101 @@
+a{
+	text-decoration: none;
+	color: #000;
+}
+/*面包屑导航开始*/
+	.ld_broad{
+	    width:7.02rem;
+	    margin:0 auto;
+	    color:#494747;
+	    font-size:.22rem;
+	    padding:.3rem 0 .2rem 0;
+	}
+	.ld_broad a{
+	    font-size:.22rem;
+	    color:#494747;
+	}
+	.ld_qufen{
+	    padding:0 .2rem;
+	}
+/*面包屑导航结束*/
+/*高薪学员主体*/
+	.yhp_gxxy_box{
+		width: 7.5rem;
+		height: auto;
+		margin: 0 auto;
+		background: #F5F6FA;
+	}
+	.yhp_gxxy_ul{
+		width: 7.02rem;
+		height: auto;
+		margin: 0 auto;
+	}
+	.yhp_gxxy_li{
+		width: 100%;
+		height: 1.85rem;
+		background: #ffffff;
+		margin-bottom: 0.1rem;
+		padding: 0.2rem;
+		box-sizing:border-box;
+	}
+	.yhp_gxxy_a{
+		display: block;
+		width: 100%;
+		height: auto;
+	}
+	.yhp_gxxy_a:after{
+		content:"";
+		display: block;
+		clear: both;
+	}
+	.yhp_gxxy_a img{
+		width: 1.93rem;
+		height: 1.45rem;
+		border: none;
+		margin-right: 0.3rem;
+		float: left;
+	}
+	.yhp_gxxy_a .yhp_gxxy_text{
+		width: auto;
+		height: auto;
+		float: left;
+		padding-top: 0.21rem;
+		box-sizing:border-box;
+	}
+	.yhp_gxxy_title:after{
+		content: "";
+		display: block;
+		clear: both;
+	}
+	.yhp_gxxy_title h1{
+		float: left;
+		font-size: 0.26rem;
+		height: 0.25rem;
+		line-height: 0.25rem;
+		font-weight: normal;
+		margin: 0;
+	}
+	.yhp_gxxy_title span{
+		font-size: 0.14rem;
+		display: block;
+		float: left;
+		color: #444444;
+		height: 0.25rem;
+		line-height: 0.32rem;
+		margin-left: 0.1rem;
+	}
+	.yhp_gxxy_space{
+		width: 1.16rem;
+		margin-top: 0.1rem;
+		margin-bottom: 0.06rem;
+		height: 0;
+		border-bottom: 1px dotted #444444;
+	}
+	.yhp_gxxy_message{
+		color: #94d43b;
+		font-size: 0.26rem;
+	}
+	.yhp_gxxy_company{
+		color: #444444;
+		font-size: 0.24rem;
+	}
